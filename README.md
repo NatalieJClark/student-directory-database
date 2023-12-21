@@ -1,73 +1,30 @@
-# Database Project Starter
+# Student Directory Database
 
-There are two videos to support:
-
-* [A demonstration of setting up the project](https://youtu.be/8dBADUN8gdg?t=0s)
-* [A walkthrough of the project codebase](https://www.youtube.com/watch?v=8dBADUN8gdg&t=287s) 
+## Introduction
+- This is a simple exercise in Makers Module 3 - Databases
+- I used this project to learn how to design and create a schema with a single table.
+- `student_directory_recipe.md' documents my design of the student_directory table
+  
+## Objectives
+- [x] Design a single table schema from these user stories.
+  - [x] As a coach  
+        So I can get to know all students  
+        I want to see a list of students' names.
+  - [x] As a coach  
+        So I can get to know all students  
+        I want to see a list of students' cohorts.
 
 ## Setup
 
 ```shell
 # Clone the repository to your local machine
-; git clone git@github.com:makersacademy/databases-in-python-project-starter.git YOUR_PROJECT_NAME
+; git clone https://github.com/NatalieJClark/student-directory-database.git YOUR_PROJECT_NAME
 
-# Or, if you don't have SSH keys set up
-; git clone https://github.com/makersacademy/databases-in-python-project-starter.git YOUR_PROJECT_NAME
-
-# Enter the directory
-; cd YOUR_PROJECT_NAME
-
-# Install dependencies and set up the virtual environment
-; pipenv install
-# Read below if you see an error with `python_full_version`
-
-# Activate the virtual environment
-; pipenv shell
+# Enter psql
+psql -h 127.0.0.1
 
 # Create the database
-; createdb YOUR_PROJECT_NAME
+CREATE DATABASE student_directory;
 
-# Open lib/database_connection.py and change the database name to YOUR_PROJECT_NAME
-; open lib/database_connection.py
-
-# Run the tests
-; pytest
-
-# Run the app
-; python app.py
+# Create the table by running the SQL table file with TablePlus or psql.
 ```
-
-<details>
-  <summary>:confused: I see an error about `python_full_version`?</summary>
-
-  <!-- OMITTED -->
-
-  ---
-
-  Your `pipenv` may be outdated and subject to a bug with newer `Pipfile`s.
-
-  ```shell
-  ; pipenv --version
-  2022.9.24 # If you see something in September 2022, try this
-  ; pip3 install "pipenv>=2022.11.5" -U
-  # pip3 will update pipenv for you
-
-  # Then try running `pipenv install` again
-  ; pipenv install
-  ```
-
-  If that works, great! If not, contact your coach.
-
-  ---
-</details>
-
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python-project-starter&prefill_File=README.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python-project-starter&prefill_File=README.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python-project-starter&prefill_File=README.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python-project-starter&prefill_File=README.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python-project-starter&prefill_File=README.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->
