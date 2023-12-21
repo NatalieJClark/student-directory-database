@@ -20,11 +20,8 @@
 # Clone the repository to your local machine
 ; git clone https://github.com/NatalieJClark/student-directory-database.git YOUR_PROJECT_NAME
 
-# Enter psql
-psql -h 127.0.0.1
-
 # Create the database
-CREATE DATABASE student_directory;
+createdb student_directory;
 
 # Create the table by running the SQL table file with TablePlus or psql.
 ```
