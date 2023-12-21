@@ -3,7 +3,7 @@
 ## Introduction
 - This is a simple exercise in Makers Module 3 - Databases
 - I used this project to learn how to design and create a schema with a single table.
-- `student_directory_recipe.md' documents my design of the student_directory table
+- `student_directory_recipe.md` documents my design of the student_directory table
   
 ## Objectives
 - [x] Design a single table schema from these user stories.
