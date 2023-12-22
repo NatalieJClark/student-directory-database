@@ -23,5 +23,15 @@
 # Create the database
 createdb student_directory;
 
-# Create the table by running the SQL table file with TablePlus or psql.
+# Create the table by running the SQL table file with psql.
+psql -h 127.0.0.1 student_directory < students_table.sql
+
+# Enter psql
+psql
+
+# Connect to the student_directory database
+\c student_directory
+
+# View the created table
+SELECT * FROM students
 ```
