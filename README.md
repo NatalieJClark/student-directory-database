@@ -21,6 +21,7 @@ This project was made with postgreSQL database software. Here's how to install i
 $ brew install postgresql@15
 
 # Make sure the installation directory is on your PATH environment variable
+# Run this line from the Homebrew output
 echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
 ```
 Here's how to run this project:
