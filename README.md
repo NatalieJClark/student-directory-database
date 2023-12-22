@@ -37,14 +37,14 @@ Here's how to run this project:
 ; git clone https://github.com/NatalieJClark/student-directory-table.git YOUR_PROJECT_NAME
 
 # Create the database
-createdb student_directory;
+; createdb student_directory;
 
 # Create the table by running the SQL table file with psql.
-psql -h 127.0.0.1 student_directory < students_table.sql
+; psql -h 127.0.0.1 student_directory < students_table.sql
 
 # Navigate to the student_directory database with psql
-psql -h 127.0.0.1 student_directory
+; psql -h 127.0.0.1 student_directory
 
 # View the created table with psql
-SELECT * FROM students;
+; SELECT * FROM students;
 ```
