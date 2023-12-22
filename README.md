@@ -18,7 +18,7 @@
 
 ```shell
 # Clone the repository to your local machine
-; git clone https://github.com/NatalieJClark/student-directory-database.git YOUR_PROJECT_NAME
+; git clone https://github.com/NatalieJClark/student-directory-table.git YOUR_PROJECT_NAME
 
 # Create the database
 createdb student_directory;
